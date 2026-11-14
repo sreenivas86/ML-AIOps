@@ -46,3 +46,26 @@ python -m pytest tests/ -v
 - Image vs model versioning
 - Container security
 - Production rollback
+
+# Day 10 - Docker Health Checks
+
+## New image
+house-price-api:v2.1
+
+## Health check
+- Endpoint: /health
+- Interval: 10 seconds
+- Timeout: 3 seconds
+- Retries: 3
+
+## Validation
+- Container started:
+- Docker health status:
+- Swagger test:
+- Prediction test:
+- v1 vs v2.1 comparison:
+
+## Learning
+- Difference between running and healthy
+- Docker HEALTHCHECK
+- Kubernetes readiness and liveness
